@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body {
+    background-color:#353535 ;
+    
+}
+
+div {
+    
+    background-image: url("images/E49EFC10-92EC-4E01-AA8F-B3063BA50D37\ 5.jpg");
+    background-repeat: no-repeat;
+    opacity: .10;
+    position: fixed;
+    background-size: 2000px;
+}
+
+header{
+    height:200px;
+    width:1800px;
+    background-color: #030328;
+    margin: 10px  20px 10px 15px;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 0px ;
+}
+
+.profile-pic {
+    height: 300px;
+    width: 300px;
+}
+
+.rName {
+    color: white;
+    font-size: 50px;
+    padding:5px;
+    flex-direction: column;
+}
+
+#navlink {
+    color:yellow; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 150px;
+    font-size: 30px;
+    color:WHITE;
+}
+
+#topquote  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeText {
+    display: inline;
+    justify-content: center;
+    align-content: center;
+    padding: 10px
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+#skills ul {
+    display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   flex-direction: column;
+   margin-top: 20px;
+
+   
+}
+
+#linkss {
+    display: flex;
+    flex-direction: flex-end;
+}
+
